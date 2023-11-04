@@ -1,0 +1,149 @@
+
+
+
+
+.kartes{
+    position: relative;
+    z-index: -11;
+}
+
+.znaks{
+    position: absolute;
+    bottom: 300px;
+    z-index: -1;
+}
+
+.znaks .znak{
+    grid-gap: 335px;
+}
+
+.iconbek{
+    font-size: 18px;
+    background: #FFF;
+    border-radius: 50%;
+}
+
+.border{
+    width: 100%;
+    height: 0.5px;
+    background: black;
+}
+
+.top{
+    margin: 10px 0;
+}
+.btnGrey:hover{
+    background: #dcd6d6;
+}
+
+.actives .active .car img{
+    max-width: 50px;
+    width: 100%;
+    height: 30px;
+    background: gray;
+}
+
+.input{
+    width: 100%;
+    height: 30px;
+}
+
+.koment{
+    padding: 10px 0 0;
+}
+
+.zakaz{
+    padding: 10px 0;
+}
+
+
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    animation: modal-show 0.5s 1 forwards;
+  }
+  
+  .modal-content {
+    position: relative;
+    width: 480px;
+    height: 180px;
+    padding: 24px;
+    background-color: white;
+  }
+  
+  .modal:target {
+    display: flex;
+  }
+  
+  .modal-show {
+    display: inline-block;
+    padding: 12px;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .modal-hide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 62px;
+    height: 60px;
+    padding: 0;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    font-size: 48px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+  
+  @keyframes modal-show {
+   0% { opacity: 0; }
+   100% { opacity: 1; }
+  }
+
+  #lider{
+    padding-bottom: 65px;
+  }
+
+.zakazat{
+    width: 100%;
+    height: 70px;
+    background: #fff;
+    box-shadow: 0px 0px 1px 0px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-top: 400px;
+}
+
+.zakazat .between{
+    padding: 7px 0;
+}
+
+.zakazat .between img{
+    max-width: 30px;
+    width: 100%;
+}
+
+.zakazat .between .btn_yellow{
+    max-width: 250px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fffb3b;
+}
+
+

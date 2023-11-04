@@ -1,0 +1,39 @@
+
+.liders{
+    width: 100%;
+    border-radius: 0px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 85px;
+}
+
+.lider_mobile{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.profile_textt{
+    padding: 15.5px 0;
+}
+
+.topBorder{
+    width: 1px;
+    min-height: 30px;
+    height: 10%;
+    background: gray;
+}
+
+.liders .lider{
+    
+    gap: 10px;
+    margin: 10px auto 0;
+    max-width: 90px;
+    width: 100%;
+    padding-left: 12px;
+    height: 45px;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 0 0 0 0.1px;
+
+}

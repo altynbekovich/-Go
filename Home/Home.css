@@ -1,0 +1,276 @@
+#map {
+    width: 100%;
+    height: 1000px;
+}
+
+.saves{
+    width: 100%;
+}
+
+
+.saves .cardes{
+    margin: 20px 0;
+}
+
+.saves .cardes .flex img{
+    max-width: 60px;
+    width: 100%;
+}
+
+.end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.saves .between .save_img{
+    border-radius: 5px;
+    background: white;
+}
+
+.saves .between .save_img img{
+    max-width: 50px;
+    width: 100%;
+}
+
+.top{
+    margin-top: 100px;
+}
+
+.cord{
+    width: 100%;
+    margin: 5px 0;
+    min-height: 90px;
+    background: #e2e2e2;
+    border-radius: 10px;
+}
+
+.pTop{
+    padding-top: 20px;
+}
+
+
+.saves .loves{
+    margin: 10px 0;
+    width: 100%;
+    padding: 20px;
+    background: #8cc1d2;
+    border-radius: 10px;
+}
+
+.love_img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.love_img img{
+    max-width: 120px;
+    width: 100%;
+}
+
+.Go{
+    min-height: 200px;
+}
+
+.saves .love_yellow{
+    background: #fffb3b;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.taksi{
+    position: relative;
+}
+
+.menus{
+    width: 100%;
+    position: absolute;
+    bottom: 1200px;
+    left: 0;
+}
+
+.menus .border_one{
+    max-width: 30px;
+    width: 100%;
+    height: 3px;
+    background: black;
+    border-radius: 20px;
+}
+.menus .border_two{
+    max-width: 30px;
+    width: 100%;
+    height: 3px;
+    background: black;
+    margin-top: 4px;
+    border-radius: 20px;
+}
+
+.menus .border{
+    max-width: 30px;
+    width: 100%;
+    height: 3px;
+    background: black;
+    margin-top:4px;
+    border-radius: 20px;
+}
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    animation: modal-show 0.5s 1 forwards;
+  }
+
+  .dabavit{
+    width: 100%;
+    height: 50px;
+    background: #fffb3b;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+  }
+
+  .topes{
+    margin: 15px 0;
+  }
+  
+  .modal-content {
+    position: relative;
+    width: 85%;
+    height: 100%;
+    background-color: white;
+  }
+
+.go_out{
+    padding-top: 500px;
+}
+
+.btnsbek-all{
+   padding: 20px;
+}
+
+.btnsbek-all .btn_yellow{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 15px;
+    left: 0;
+    width: 91%;
+    height: 40px;
+    margin-left: 15px;
+    padding: 0 20px;
+    border-radius: 10px;
+    background: #fffb3b;
+}
+
+  .menu_btns{
+    margin: -2% 0;
+  }
+
+  .menu_btns img{
+    max-width: 40px;
+    height: 20px;
+    width: 100%;
+  }
+  
+  .modal:target {
+    display: flex;
+  }
+  
+  .modal-show {
+    display: inline-block;
+    padding: 12px;
+    background-color: #8bb02c;
+    color: white;
+    font-size: 18px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+  }
+  
+  .modal-hide {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    font-size: 38px;
+    text-align: center;
+    color: black;
+  }
+  
+  @keyframes modal-show {
+   0% { opacity: 0; }
+   100% { opacity: 1; }
+  }
+
+.icon{
+    font-size: 25px;
+  }
+
+#profile{
+    width: 100%;
+    height: 50px;
+    grid-gap: 100px;
+    background: white;
+    padding: 0 10px;
+}
+
+.profile_text{
+    padding: 20px 0;
+}
+
+
+
+.between .topes{
+    gap: 10px;
+}
+
+.between .topes img{
+    max-width: 30px;
+    width: 100%;
+}
+
+.between .topes .bor_radius{
+    max-width: 30px;
+    width: 100%;
+    height: 30px;
+    border-radius: 50%;
+    background: #e2e2e2;
+}
+
+.height{
+    height: 550px;
+}
+
+.too{
+    margin-top: 10px;
+}
+
+.tema{
+    padding: 12px;
+}
+
+.right{
+    padding-right: 12px;
+}
+
+.ptop{
+    padding-top: 10px;
+}
+
+.modal .modal-content .menu_btns .topes{
+    margin: 5px 0;
+}

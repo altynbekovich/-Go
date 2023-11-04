@@ -1,0 +1,121 @@
+input[type="checkbox"] {
+    position: relative;
+    width: 60px;
+    height: 30px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: gray;
+    border-radius: 2rem;
+    cursor: pointer;
+    box-shadow: inset 0 0 5px rgb(0 0 0 / 50%);
+  }
+  
+  input[type="checkbox"]::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    box-shadow:  0 0 0 0.1px;
+  }
+  
+  input[type="checkbox"]:checked::before {
+    transform: translateX(100%);
+    background: #fff;
+  }
+  
+  input[type="checkbox"]:checked {
+    background: yellow;
+  }
+  
+
+
+
+
+  .modalka {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    animation: modal-show 0.5s 1 forwards;
+  }
+  
+  .modal-contentka {
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    height: 229px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .modalka:target {
+    display: flex;
+  }
+  
+  .modal-showka {
+    display: inline-block;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  .modal-hideka {
+    padding-left: 120px;
+    -webkit-appearance: none;
+    background-color: transparent;
+    font-size: 14px;
+  }
+
+  .modal-hi{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 7px;
+  }
+
+  .modalKesh{
+    padding: 26px 22px;
+  }
+
+  .border{
+    width: 100%;
+    height: 0.3px;
+    background: grey;
+  }
+
+  .modalka .modal-contentka .topes{
+    margin: 10px 0;
+  }
+  
+  @keyframes modal-show {
+   0% { opacity: 0; }
+   100% { opacity: 1; }
+  }
+
+
+.height{
+    height: 30px;
+}
+
+.height .text{
+    padding-top: 9px;
+}
+
+.border{
+    width: 100%;
+    height: 0.5px;
+    background: gray;
+}
+
+.profile_textes{
+    padding: 12px 0;
+}

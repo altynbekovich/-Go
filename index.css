@@ -1,0 +1,192 @@
+@font-face {
+    font-family: Gilroy;
+    src: url("./fonts/Roboto-Thin.ttf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url("./fonts/Roboto-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url("./fonts/Roboto-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url("./fonts/Roboto-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url("./fonts/Roboto-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url("./fonts/Roboto-Black.ttf");
+    font-weight: 900;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gilroy',sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+input{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 15px;
+    background: none;
+}
+
+.input_go{
+    width: 100%;
+    padding: 10px;
+    background: #e2e2e2;
+    border-radius: 10px;
+    color: black;
+    font-size: 16px;
+    margin: 10px 0 6px;
+}
+
+.containers{
+    max-width: 884px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 884px;
+    width: 94%;
+    margin: 0 auto;
+}
+
+.grid{
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.flex{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.between{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.around{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#center{
+    text-align: center;
+}
+
+.text{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+i{
+    cursor: pointer;
+}
+
+.grey{
+    color: grey;
+}
+
+.title{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.saves{
+    width: 100%;
+    background: #f2f1f1;
+    box-shadow: 0 5px 30px 0 rgba(239, 239, 239, 0.2);
+    border-radius: 20px;
+}
+
+.kart{
+    width: 100%;
+    height: 523px;
+    position: relative;
+}
+
+.apsolute{
+    min-height: 235px;
+    position: sticky;
+    top: 200px;
+}
+
+.card{
+    width: 100%;
+    padding: 28px;
+    background: #e2e2e2;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btnGrey{
+    max-width: 100px;
+    width: 100%;
+    min-height: 30px;
+    border-radius: 10px;
+}
+
+.project{
+    font-size: 15px;
+    color: grey;
+    line-height: 1.3;
+}
+
+

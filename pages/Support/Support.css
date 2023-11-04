@@ -1,0 +1,25 @@
+
+
+.support{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.support .lacon {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0.3px 0px 0px 0px;
+    border-radius: 8px;
+}
+
+ .support .lacon  .caras_img img{
+    max-width: 60px;
+    width: 100%;
+ }
+
+ .border_top{
+    width: 100%;
+    height: 0.1px;
+    background: gray;
+ }
