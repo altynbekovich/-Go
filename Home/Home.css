@@ -7,6 +7,9 @@
     width: 100%;
 }
 
+.menu{
+    padding: 0 12px;
+}
 
 .saves .cardes{
     margin: 20px 0;
@@ -39,7 +42,7 @@
 
 .cord{
     width: 100%;
-    margin: 5px 0;
+    margin: 10px 0;
     min-height: 90px;
     background: #e2e2e2;
     border-radius: 10px;
@@ -53,7 +56,7 @@
 .saves .loves{
     margin: 10px 0;
     width: 100%;
-    padding: 20px;
+    padding: 14px;
     background: #8cc1d2;
     border-radius: 10px;
 }
@@ -76,7 +79,7 @@
 .saves .love_yellow{
     background: #fffb3b;
     width: 100%;
-    padding: 20px;
+    padding: 14px;
     border-radius: 10px;
 }
 
@@ -87,7 +90,7 @@
 .menus{
     width: 100%;
     position: absolute;
-    bottom: 1200px;
+    bottom: 1189px;
     left: 0;
 }
 
@@ -116,42 +119,23 @@
     border-radius: 20px;
 }
 
+.ex{
+    margin-top: 17px;
+}
 
-
-.modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    opacity: 0;
-    animation: modal-show 0.5s 1 forwards;
-  }
-
-  .dabavit{
+.dabavit{
     width: 100%;
     height: 50px;
     background: #fffb3b;
-    display: flex;
-    align-items: center;
-    padding: 12px;
-  }
+    padding: 17px;
+}
 
-  .topes{
+.topes{
     margin: 15px 0;
-  }
+}
   
-  .modal-content {
-    position: relative;
-    width: 85%;
-    height: 100%;
-    background-color: white;
-  }
-
 .go_out{
-    padding-top: 500px;
+    padding-top: 400px;
 }
 
 .btnsbek-all{
@@ -173,51 +157,37 @@
     background: #fffb3b;
 }
 
-  .menu_btns{
-    margin: -2% 0;
-  }
+.menu_btns{
+    padding: 17px;
+}
 
-  .menu_btns img{
-    max-width: 40px;
+.menu_btn{
+    padding: 0 17px;
+}
+
+.menu_btns .between img{
+    max-width: 50px;
+    height: 28px;
+    width: 100%;
+}
+
+.menu_btn .between img{
+    max-width: 50px;
     height: 20px;
     width: 100%;
-  }
+}
+
+.menu_btn .between .error{
+    max-width: 23px;
+    height: 20px;
+}
   
-  .modal:target {
+.modal:target {
     display: flex;
-  }
-  
-  .modal-show {
-    display: inline-block;
-    padding: 12px;
-    background-color: #8bb02c;
-    color: white;
-    font-size: 18px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-decoration: none;
-  }
-  
-  .modal-hide {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 60px;
-    height: 60px;
-    -webkit-appearance: none;
-    background-color: transparent;
-    border: none;
-    font-size: 38px;
-    text-align: center;
-    color: black;
-  }
-  
-  @keyframes modal-show {
-   0% { opacity: 0; }
-   100% { opacity: 1; }
-  }
+}
 
 .icon{
-    font-size: 25px;
+    font-size: 20px;
   }
 
 #profile{
@@ -225,14 +195,16 @@
     height: 50px;
     grid-gap: 100px;
     background: white;
-    padding: 0 10px;
+    /* padding: 0 10px; */
 }
 
 .profile_text{
     padding: 20px 0;
 }
 
-
+.plus{
+    border-radius: 60px;
+}
 
 .between .topes{
     gap: 10px;
@@ -260,11 +232,7 @@
 }
 
 .tema{
-    padding: 12px;
-}
-
-.right{
-    padding-right: 12px;
+    padding: 6px 0;
 }
 
 .ptop{
@@ -274,3 +242,80 @@
 .modal .modal-content .menu_btns .topes{
     margin: 5px 0;
 }
+
+.border{
+    width: 100%;
+    height: 0.3px;
+    background: gray;
+}
+
+.gm-style .place-card-large {
+    padding: 9px 4px 9px 11px;
+    display: none !important;
+}
+.gm-style .place-card, .gm-style .default-card, .gm-style .directions-card {
+    cursor: default;
+    display: none !important;
+}
+
+
+.modal-content {
+    width: 83%;
+    height: 100%;
+    background-color: #fefefe;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    animation: slide 0.7s;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+
+  
+@keyframes slide {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.modal-hide {
+    position: absolute;
+    top: 10px;
+    left: 270px;
+    width: 60px;
+    height: 60px;
+    -webkit-appearance: none;
+    background-color: transparent;
+    font-size: 28px;
+    text-align: center;
+    color: black;
+}
+
+.fixed{
+    position: fixed;
+    
+}
+

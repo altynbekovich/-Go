@@ -1,0 +1,44 @@
+.kartNum{
+  width: 100%;
+  padding: 52px 12px;
+  height: 130px;
+  background-color: #fff;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 10px;
+}
+
+input{
+    padding: 0;
+}
+
+
+.icongul{
+  border: 1px solid gray;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  padding: 1px;
+  background: white;
+}
+
+.fixet{
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.rote{
+  margin-top: 10px;
+}
+
+.btn_yellow{
+  width: 90%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: yellow;
+  border-radius: 10px;
+}

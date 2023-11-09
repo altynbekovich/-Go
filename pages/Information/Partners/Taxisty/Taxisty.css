@@ -1,0 +1,48 @@
+input{
+    padding: 12px 0 ;
+}
+
+.border{
+    width: 100%;
+    height: 0.3px;
+    background: gray;
+}
+
+.topeses{
+    margin-top: 17px;
+}
+
+.top{
+    margin-top: 40px;
+    border-radius: 0;
+    height: 80px;
+}
+.tema{
+    padding-top: 30px;
+    margin-top: 50px;
+}
+
+.between p{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.textos .text{
+    font-size: 13px;
+    font-weight: 400;
+    color: gray;
+}
+
+.textos .text a{
+    font-size: 13px;
+    font-weight: 400;
+    color: gray;
+}
+
+.topes{
+    margin: 14px 0;
+}
+
+.bottom{
+    margin-bottom: 15px;
+}

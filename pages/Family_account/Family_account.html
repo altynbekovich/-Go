@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../Home/Home.css" />
+    <link rel="stylesheet" href="./../../js/modal.js" />
+    <link rel="stylesheet" href="../../index.css" />
+    <link rel="stylesheet" href="../../js/all.min.js" />
+    <link rel="stylesheet" href="./Family_account.css" />
+    <link rel="stylesheet" href="../Discounts_gifts/Discounts_gifts.css">
+    <title>Family account</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="between" id="profile">
+        <a href="../../Home/Home.html">
+          <i class="fa-solid fa-chevron-left icon"></i>
+        </a>
+        <a id="modalon-show" href="#modalon">
+          <i class="fa fa-trash"></i>
+        </a>
+      </div>
+
+      <div class="modalon center" id="modalon">
+        <div class="modalon-content">
+          <h3 class="h3" style="padding-top: 15px;">Удалить аккаунт?</h3>
+          <p class="p">
+            Участники больше не смогут<br />
+            оплачивать поездки вашей <br />
+            картой.
+          </p>
+          <div style="display: flex; padding-top: 10px;">
+            <a id="modalon-hide" href="#">Оставить</a>
+            <a id="hideka" href="#">Удалить</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="family topes">
+        <h3>Семейный аккаунт</h3>
+        <div class="border topes"></div>
+        <a href="../Family_account/Participants/Participants.html">
+          <div class="between">
+            <div>
+              <p>Участники</p>
+              <p class="text grey">1 участник</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </a>
+
+        <div class="border topes"></div>
+        <a class="modalex-show" href="#myModal">
+          <div class="between">
+            <div id="modalBtn">
+              <p>Выбрать карту для оплаты</p>
+              <p class="text red">Выберите карту для аккаунта</p>
+            </div>
+          </div>
+        </a>
+
+        <div class="modal" id="myModal">
+          <div class="modal-content" style="height: 100px;">
+            <div class="relative">
+              <span class="close" id="closeBtn">&times;</span>
+            </div>
+            <div class="between">
+              <div class="flex" style="gap: 10px">
+                <div
+                  style="
+                    font-size: 22px;
+                    border: 0.3px solid;
+                    padding: 3px 16px;
+                    border-radius: 5px;
+                  "
+                >
+                  +
+                </div>
+                <p class="title">Привязать карту</p>
+              </div>
+              <div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+            <div class="border topes"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var modal = document.getElementById("myModal");
+      var btn = document.getElementById("modalBtn");
+      var span = document.getElementById("closeBtn");
+
+      btn.onclick = function () {
+        modal.style.display = "block";
+      };
+
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
+    <script src="../../js/all.min.js"></script>
+  </body>
+</html>

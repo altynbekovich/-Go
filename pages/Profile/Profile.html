@@ -3,30 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone/babel.min.js"></script>
+    <script src="../../js/modal.js"></script>
     <link rel="stylesheet" href="../../js/all.min.js">
     <link rel="stylesheet" href="../../index.css">
     <link rel="stylesheet" href="../../Home/Home.css">
+    <link rel="stylesheet" href="../Profile/Number/Number.css">
+    <link rel="stylesheet" href="../../js/modal.js">
     <title>Profile</title>
 </head>
 <body>
     <div class="container">
-        <div class="flex" id="profile">
+        <div class="flexx topes">
             <a href="../../Home/Home.html">
                 <i class="fa-solid fa-chevron-left icon"></i>
             </a>
-            <h4>Айдар Алтынбеков</h4>
+            <h3 class="topes">Айдар Алтынбеков</h3>
         </div>
+       <a href="../Profile/Number/Number.html">
         <div class="profile_text between">
             <p>+996 999 001 582</p>
             <i class="fa-solid fa-chevron-right"></i>
         </div>
-        <div class="profile_text between">
-            <p>Дабавить почту</p>
-            <i class="fa-solid fa-chevron-right"></i>
-        </div>
-        <div class="go_out">
-            Ввыйти из профиля
-        </div>
+       </a>
+        <a href="../Profile/Add_mail/Add_mail.html">
+            <div class="profile_text between">
+                <p>Дабавить почту</p>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+        </a>
+        <a class="modalon-show" href="#modalon">
+            <div class="go_out">
+                Ввыйти из профиля
+            </div>
+        </a>
+
+        <div class="modalon" id="modalon">
+            <div class="modalon-content">
+                <a href="../pages/Profile/Profile.html">
+                    <div class="menu topes">
+                        <p class="text" id="center">Вы уверены, что хотите выйти из своего профиля?</p>
+                        <div class="border topes"></div>
+                        <p id="center" class="tompok blue">Удалить аккаунт насовсем</p>
+                        <div class="border topes"></div>
+                        <p id="center" class="red">Выйти из профиля</p>
+                    </div>
+                </a>
+             <a class="modalon_hide blue" href="#">Отмена</a>
+           </div>
+         </div>
+        <div id="root"></div>
     </div>
     <script src="../../js/all.min.js"></script>
 </body>

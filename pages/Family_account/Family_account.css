@@ -1,0 +1,197 @@
+
+
+@keyframes slide {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  position: fixed;
+  bottom: 0;
+  background-color: #fefefe;
+  padding: 20px;
+  width: 100%;
+  height: 13%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.relative{
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  left: 340px;
+  top: -18px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+}
+
+
+
+/* 2 */
+
+
+
+.modalor {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalor-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 10px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  padding: 0 10px 0 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+}
+
+
+
+
+
+
+.modalon:target {
+    display: flex;
+}
+
+.modalon-show {
+    display: inline-block;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.modalon-content {
+    position: fixed;
+    bottom: 230px;
+    left: 0;
+    right: 0;
+    max-width: 300px;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 168px;
+    /* padding: 20px 25px; */
+    border-radius: 10px;
+    background-color: white;
+}
+
+.center .modalon-content .h3, .p{
+  padding: 5px 25px 10px;
+
+}
+  
+@keyframes slide {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes modal-show {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+   }
+
+
+  .modalon{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    animation: modal-show 0.5s 1 forwards;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .modalon_hide{
+    position: absolute;
+    top: 155px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    -webkit-appearance: none;
+    font-size: 18px;
+    padding-top: 10px;
+    font-weight: 400;
+    color: blue;
+  }
+
+#modalon-hide{
+  width: 100%;
+  padding: 10px 0 0 40px;
+  color: white;
+  background: black;
+  border-bottom-left-radius: 10px;
+}
+
+#hideka{
+  width: 100%;
+  height: 42px;
+  padding: 10px 0 0 40px;
+  color: black;
+  background: yellow;
+  border-bottom-right-radius: 10px;
+}

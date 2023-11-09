@@ -1,0 +1,166 @@
+.yandex{
+    width: 100%;
+}
+
+.yandex .topes .yandex_img{
+    max-width: 100px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    margin-left: 35px;
+}
+
+.yandex .topes{
+    display: flex;
+}
+
+.tros{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.trans{
+    margin: 20px 0 8px;
+}
+
+.btn_black{
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    background-color: black;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.btn_border{
+    width: 100%;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid grey;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.btn_yellow{
+    background-color: grey;
+    opacity: 0.4;
+    max-width: 884px;
+}
+
+.border_black{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+#fixed{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 10px auto;
+    width: 90%;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.active-button {
+    color: black;
+    background-color: yellow;
+    opacity: 1;
+}
+
+input{
+    padding: 10px 0;
+}
+
+.modalon:target {
+    display: flex;
+}
+
+.modalon-show {
+    display: inline-block;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.modalon-content {
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 95%;
+    min-height: 130px;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: white;
+}
+  
+@keyframes slide {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes modal-show {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+   }
+
+
+  .modalon{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    animation: modal-show 0.5s 1 forwards;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .modalon_hide{
+    position: absolute;
+    top: 155px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    -webkit-appearance: none;
+    font-size: 18px;
+    padding-top: 10px;
+    font-weight: 400;
+    color: blue;
+  }
+
+.modalon-content .menu .text{
+    width: 350px;
+}
+
+.blue{
+    color: blue;
+}

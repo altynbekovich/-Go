@@ -1,0 +1,15 @@
+
+
+.btn_yellow{
+    width: 100%;
+    height: 40px;
+    background: yellow;
+    border-radius: 5px;
+}
+.label{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+}

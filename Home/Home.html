@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Карта Яндекс.Такси в Кыргызстане</title>
+    <title>Яндекс.Такси в Кыргызстане</title>
     <link rel="stylesheet" href="./Home.css">
     <link rel="stylesheet" href="../index.css">
     <link rel="stylesheet" href="./all.min.css">
+    <!-- <link rel="stylesheet" href="../pages/Family_account/Family_account.css"> -->
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone/babel.min.js"></script>
 </head>
 <body>
     <div class="containers">
-        <iframe class="kart" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1085635.1345393086!2d72.47005587990013!3d41.20438040664099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3889fe86e21f7c81%3A0x28b1e07bf58e3c36!2sKyrgyzstan!5e0!3m2!1sen!2sus!4v1635991746659!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
+        <iframe class="kart" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1085635.1345393086!2d72.47005587990013!3d41.20438040664099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3889fe86e21f7c81%3A0x28b1e07bf58e3c36!2sKyrgyzstan!5e0!3m2!1sen!2sus!4v1635991746659!5m2!1sen!2sus" width="600" height="450" style="border:0;" ></iframe>
     </div>   
-    
     <div class="saves apsolute">
         <div class="container">
            <div class="taksi">
+            <div class="fixet">
 
             <div class="cardes input_go between">
                 <div class="flex">
@@ -55,7 +58,7 @@
      
                  <div class="card">
                      <div>
-                         <h4 class="title">Dordoi plaza</h4>
+                         <h4 class="title">Dordoi</h4>
                          <p class="text">3 мин</p>
                      </div>
                      <div class="end">
@@ -64,10 +67,8 @@
                  </div>
              </div>
  
- 
              <div class="cord">
          
-                 <div class="container">
                     <div class="between pTop">
                      
                      <div class="save_img">
@@ -83,7 +84,6 @@
                      </div>
                      
                     </div>
-                 </div>
              </div>
  
             <div class="loves">
@@ -94,7 +94,7 @@
                           <div class="love_img">
                             <img src="../img/love.jpg" alt="">
                           </div>
-         </div>
+            </div>
 
             <div class="love_yellow">
                         <div class="love_text">
@@ -105,8 +105,10 @@
                           <img src="../img/dostav.jpg" alt="">
                         </div>
         </div>
+            </div>
 
 
+     <div class="between client apsolute">
         <a class="modal-show" href="#modal">
             <div class="menus">
                 <div class="border_one"></div>
@@ -114,92 +116,118 @@
                 <div class="border_two"></div>
     
             </div>
-        </a>
+         </a>
+        
+     </div>
+
+
+
+        <div id="root"></div>
 
         <div class="modal" id="modal">
             <div class="modal-content">
                 <a href="../pages/Profile/Profile.html">
-                    <div class="menu topes">
-                        <h3 class="title tema">Айдар Алтынбеков <br> 
+                    <div class="menu ex">
+                        <h3 class="title">Айдар Алтынбеков <br> 
                         <span class="text grey">+996 999 001 582</span>
                     </h3>
                     </div>
                 </a>
 
                 <div class="menu_btns">
-                    <a href="../pages/Payment_methods/Payment_methods.html">
+                    <a href="../pages/Notifications/Notifications.html">
                         <div class="between">
-                            <div class="topes">
-                            <h3 class="title tema">Способы оплаты <br>
+                            <div class="ex">
+                            <h3 class="title">Способы оплаты <br>
                                  <span class="text grey">Наличные</span></h3>
                             </div>
                             <div>
-                                <img class="right" src="../img/money.jpg" alt="">
+                                <img src="../img/money.jpg" alt="">
                             </div>
                         </div>
                     </a>
-                   <div>
-                    <a href="../pages/All_cards/All_cards.html">
-                        <div class="dabavit">
-                            <h3 class=" title">Дабавить карту</h3>
-                            </div>
-                    </a>
-                   </div>
-                       <div class="between topes">
-                        <div>
-                            <h3 class="title tema">Плюс</h3>
-                        </div>
-                        <div>
-                            <img class="right" src="../img/яндекс плюс.jpg" alt="">
-                        </div>
-                       </div>
-
-                        <a target="_blank" href="https://pro.yandex/signup/kg-ru/userapp?utm_source=userapp&utm_campaign=userapp_menu">
-                            <h3 class="title tema topes">Стать водителем</h3>
-                        </a>
-
-                        <h3 class="title tema topes">Семейный аккаунт</h3>
-
-                        <a href="../pages/Safety/Safety.html">
-                            <h3 class="title tema topes">Безопасность</h3>
-                        </a>
-
-                        <a href="">
-                            <h3 class="title tema topes">Скидки и подарки <br>
-                                 <span class="text grey topes">Ввывести промакод</span></h3>
-                        </a>
-
-                        <h3 class="title tema topes">Мои адреса</h3>
-
-                        <h3 class="title tema topes">Истортия заказов </h3>
-
-                        <a href="../pages/Setting/Setting.html">
-                            <h3 class="title tema topes">Настройки</h3>
-                        </a>
-
-                        <a href="../pages/Support/Support.html">
-                        <h3 class="title tema topes">Служба подержка</h3>
-                        </a>
-
-                        <a href="../pages/Information/Information.html">
-                            <h3 class="title tema topes">Информация</h3>
-                        </a>
-
+                  
                 </div>
-             <a class="modal-hide" href="#">✕</a>
-           </div>
-         </div>
+
+                <div>
+                    <a href="../pages/All_cards/All_cards.html">
+                        <div class="dabavit flex">
+                            <h3 class="title">Добавить карту</h3>
+                        </div>  
+                    </a>
+                </div>
+        
+                   
+
+                <div class="menu_btn">
+                   
+
+                   
+                           <a href="../pages/Pluses/Pluses.html">
+                            <div class="between topes">
+                                <div>
+                                    <h3 class="title">Плюс</h3>
+                                </div>
+                                <div>
+                                    <img class="plus" src="../img/яндексwidth.jpg" alt="">
+                                </div>
+                               </div>
+                           </a>
+
+                            
+    
+                            <a target="_blank" href="https://pro.yandex/signup/kg-ru/userapp?utm_source=userapp&utm_campaign=userapp_menu">
+                                <h3 class="title tema  topes">Стать водителем</h3>
+                            </a>
+    
+                            <a href="../pages/Family_account/Family_account.html">
+                            <h3 class="title tema topes">Семейный аккаунт</h3>
+                            </a>
+    
+                            <a class="between" href="../pages/Safety/Safety.html">
+                                <h3 class="title tema ">Безопасность</h3>
+                                <img class="error" src="../img/защита.jpg" alt="">
+                            </a>
+    
+                            <a href="../pages/Discounts_gifts/Discounts_gifts.html">
+                                <h3 class="title tema topes">Скидки и подарки <br>
+                                     <span class="text grey topes">Ввывести промакод</span></h3>
+                            </a>
+    
+                            <a href="../pages/My_addresses/My_addresses.html">
+                                <h3 class="title tema topes">Мои адреса</h3>
+                            </a>
+
+                            <div class="modal" id="modal">
+                                <div class="modal-content">
+                                </div>
+                            </div>
+
+                            <a href="../pages/History_orders/History_orders.html">
+                            <h3 class="title tema topes">История заказов</h3>
+                            </a>
+    
+                            <a href="../pages/Setting/Setting.html">
+                                <h3 class="title tema topes">Настройки</h3>
+                            </a>
+    
+                            <a href="../pages/Support/Support.html">
+                            <h3 class="title tema topes">Служба подержка</h3>
+                            </a>
+    
+                            <a href="../pages/Information/Information.html">
+                                <h3 class="title tema topes">Информация</h3>
+                            </a>
+                        </div>
+                    </div>
+                <a class="modal-hide" href="#">✕</a>
+            </div>
+            </div>
 
            </div>
         </div>
     </div>
 
-    
-
-   
-
-
-    
     <script src="../js/all.min.js"></script>
 </body>
 </html>

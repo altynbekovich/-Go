@@ -7,19 +7,41 @@
 
 .support .lacon {
     width: 100%;
-    padding: 10px;
+    height: 115px;
     background-color: #fff;
-    box-shadow: 0.3px 0px 0px 0px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     border-radius: 8px;
 }
 
  .support .lacon  .caras_img img{
-    max-width: 60px;
+    max-width: 75px;
+    height: 35px;
     width: 100%;
+ }
+ 
+ .support .lacon .flex h3{
+    font-size: 20px;
+    font-weight: 500;
+ }
+ 
+ .support .lacon .flex p{
+    font-size: 14px;
+    font-weight: 400;
+ }
+
+ .support .lacon .padding{
+    padding: 10px 15px;
  }
 
  .border_top{
     width: 100%;
     height: 0.1px;
     background: gray;
+ }
+
+ #profile{
+    padding: 0;
+ }
+ .profile_texte{
+    padding: 12px 0;
  }

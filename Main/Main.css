@@ -127,6 +127,8 @@
     bottom: 0;
     left: 0;
     margin-top: 400px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .zakazat .between{

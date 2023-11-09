@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../../Home/Home.css">
+    <link rel="stylesheet" href="../../../index.css">
+    <link rel="stylesheet" href="../../../js/all.min.js">
+    <link rel="stylesheet" href="../../Profile/Number/Number.css">
+  <title>Add mail</title>
+    <div class="save">
+        <div class="container">
+            <div class="flexx topes">
+                <a href="../../Profile/Profile.html">
+                    <i class="fa-solid fa-chevron-left icon"></i>
+                </a>
+                <h3 class="topes">Почта для отчетов</h3>
+                 <input type="text" id="myInput" placeholder="Электронный адрес">
+                <div class="border_black"></div>
+                <p class="text grey topes">На этот мы будем высылать вам отчеты о <br>
+                  ваших поездках
+                </p>
+            </div>
+            <button id="fixed" class="btn_yellow">Добавить</button>
+        </div>
+    </div>
+    <script src="../../../js/all.min.js"></script>
+</head>
+<body>
+
+
+<script>
+  const inputElement = document.getElementById('myInput');
+  const buttonElement = document.getElementById('fixed');
+
+  inputElement.addEventListener('input', function() {
+    if (inputElement.value.trim() !== '') {
+      buttonElement.classList.add('active-button'); 
+    } else {
+      buttonElement.classList.remove('active-button'); 
+  }
+});
+</script>
+
+</body>
+</html>

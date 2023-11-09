@@ -1,0 +1,35 @@
+.poezd{
+    width: 100%;
+    min-height: 115px;
+    background-color: #fff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 10px;
+}
+
+.poezdka{
+    width: 100%;
+    padding: 2px;
+    background-color: #fff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 20px;
+}
+
+.between{
+    padding: 10px 10px;
+}
+
+.borderR{
+    width: 50px;
+    padding: 12px;
+    border-radius: 50%;
+    background: grey;
+}
+
+.icongul{
+    border: 2px solid;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 1px;
+    background: white;
+}
