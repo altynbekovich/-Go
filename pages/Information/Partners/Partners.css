@@ -25,15 +25,12 @@
 }
 
 .liders .lider{
-    
     gap: 10px;
     margin: 10px auto 0;
     max-width: 90px;
     width: 100%;
-    padding-left: 12px;
     height: 45px;
     border-radius: 30px;
     background: white;
     box-shadow: 0 0 0 0.1px;
-
 }

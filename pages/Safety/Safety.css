@@ -6,17 +6,191 @@
     gap: 40px;
 }
 
-.skoryi .cases .case{
-    width: 50px;
-    height: 50px;
+.skoryi .cases .case {
+    width: 66px;
+    height: 66px;
     background: #f0ecec;
     text-align: center;
     border-radius: 50%;
-    margin-left: 5px;
+ }
+
+.topp{
+    margin: 15px 0 0;
+}
+
+.back{
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 13px;
+}
+
+#fixet{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.good .modalon-show .go_outs .btn_oranges{
+    width: 100%;
+    /* max-width: 884px; */
+    padding: 12px;
+    height: 55px;
+    background: #f73403;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    filter: blur(0.3px);
+    border-radius: 15px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn_grey{
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 15px;
+    height: 55px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.btn_orange{
+    max-width: 884px;
+    width: 97%;
+    padding: 12px;
+    height: 50px;
+    background: #f73403;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    filter: blur(0.3px);
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.good{
+    background-color: #f1f1f1;
+    height: 500px;
+}
+
+.weight{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn_yellow{
+    background-color: yellow;
+    color: black;
+}
+
+.blue{
+    color: blue;
+}
+
+.modalon:target {
+    display: flex;
+}
+
+.modalon-show {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.modalon-content {
+    position: fixed;
+    bottom: 70px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 95%;
+    height: 60px;
+    padding: 0 99px;
+    border-radius: 10px;
+    object-fit: cover;
+    background-color: #322d2d;
+    color: #fff;
+}
+  
+@keyframes slide {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes modal-show {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+   }
+
+   .gap{
+    gap: 100px;
+   }
+
+  .modalon{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(10, 10, 10, 0.7);
+    opacity: 0;
+    animation: modal-show 0.5s 1 forwards;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .modalon_hide{
+    position: absolute;
+    top: 71px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #1e1c1c;
+    filter: blur(0.3);
+    text-align: center;
+    -webkit-appearance: none;
+    font-size: 18px;
+    padding-top: 15px;
+    font-weight: 400;
+    color: blue;
+}
+
+.modalon-content .menu{
+    gap: 20px;
+}
+
+.modalon-content .menu .text{
+    font-size: 22px;
+    font-weight: 400;
+    color: blue;
 }
 
 .iconbek{
-    padding-top: 17px;
+    padding-top: 25px;
 }
 
 .skoryi .tope{

@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../index.css">
     <link rel="stylesheet" href="../js/all.min.js">
     <link rel="stylesheet" href="./Main.css">
-    <title>Order</title>
+    <title>Main</title>
 </head>
 <body>
     <div class="containers">
@@ -20,11 +20,13 @@
             <div class="znak between">
                <div>
                 <a href="../Home/Home.html">
-                    <i class="fa fa-arrow-left iconbek"></i>
+                    <i class="fa fa-arrow-left iconbek" style="font-size: 22px;"></i>
                    </a>
                </div>
                <div>
-                <i class="fa fa-location-arrow iconbek"></i>
+                <a href="../Home/Home.html">
+                <i class="fa fa-location-arrow iconbek" style="font-size: 22px;"></i>
+                </a>
                </div>
             </div>
         </div>
@@ -158,11 +160,20 @@
 
    </div>
 
-    <div class="modal" id="modal">
-       <div class="modal-content">
-        <a class="modal-hide" href="#">✕</a>
-      </div>
-    </div>
+   <div class="modalon" id="modalon">
+    <div class="modalon-content">
+        <a href="../pages/Profile/Profile.html">
+            <div class="menu topes">
+                <p class="text" id="center">Вы уверены, что хотите выйти из своего профиля?</p>
+                <div class="border topes"></div>
+                <p id="center" class="tompok blue">Удалить аккаунт насовсем</p>
+                <div class="border topes"></div>
+                <p id="center" class="red">Выйти из профиля</p>
+            </div>
+        </a>
+     <a class="modalon_hide blue" href="#">Отмена</a>
+   </div>
+ </div>
 
 
     <script src="../js/all.min.js"></script>

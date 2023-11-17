@@ -51,9 +51,9 @@ button{
     cursor: pointer;
 }
 
-li{
+/* li{
     list-style: none;
-}
+} */
 
 input{
     border: none;
@@ -66,7 +66,7 @@ input{
 .input_go{
     width: 100%;
     padding: 10px;
-    background: #e2e2e2;
+    background: #f1f1f1;
     border-radius: 10px;
     color: black;
     font-size: 16px;
@@ -82,6 +82,13 @@ input{
 .container{
     max-width: 884px;
     width: 92%;
+    margin: 0 auto;
+}
+.marginAuto{
+    margin: 0 auto;
+}
+
+#profile h4{
     margin: 0 auto;
 }
 
@@ -151,7 +158,7 @@ i{
 
 .saves{
     width: 100%;
-    background: #f2f1f1;
+    background-color: var(--bg-main-color);
     box-shadow: 0 5px 30px 0 rgba(239, 239, 239, 0.2);
     border-radius: 20px;
 }
@@ -170,8 +177,8 @@ i{
 
 .card{
     width: 100%;
-    padding: 26px;
-    background: #e2e2e2;
+    padding: 23px;
+    background: #f1f1f1;
     border-radius: 10px;
     cursor: pointer;
 }

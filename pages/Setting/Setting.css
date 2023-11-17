@@ -121,3 +121,7 @@ input[type="checkbox"] {
 .profile_textes{
     padding: 12px 0;
 }
+
+#profile h4{
+  margin: 0 auto;
+}

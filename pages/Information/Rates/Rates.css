@@ -1,0 +1,108 @@
+
+.content {
+  min-height: 100px;
+  padding: 30px 30px 0 30px;
+  width: 100%;
+}
+
+.contents{
+  min-height: 40px;
+  width: 100%;
+}
+
+.contentes{
+  background-color: #6b6862;
+}
+
+img {
+  margin: 10px;
+  position: relative;
+  max-width: 250px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 35px 0 10px 40px;
+}
+
+.contentes h3{
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.slick-dots li button:before {
+  display: none;
+}
+
+.slick-next:before {
+  display: none;
+}
+
+.slick-prev:before {
+  display: none;
+}
+
+.borders{
+  width: 100%;
+  height: 0.3px;
+  background-color: #fff;
+}
+
+.variable-width .slick-slide p {
+  background: #fff;
+  height: 100px;
+  color: #3498db;
+  margin: 5px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.btns{
+  overflow-y: scroll;
+  white-space: nowrap;
+}
+
+.btns p{
+  color: ghostwhite;
+
+}
+
+.btnses button:first-child{
+  width: 100%;
+  background-color: #e2e614;
+  padding: 7px;
+  border: 0.3px solid;
+  text-align: center;
+}
+
+.btnses button:last-child{
+  width: 100%;
+  padding: 7px;
+  border: 0.3px solid;
+  text-align: center;
+
+}
+
+.btnses button{
+  display: block;
+}
+
+.saves{
+  height: 90px;
+  border-radius: 0px;
+  margin: 30px 0;
+  padding: 35px 0 0 0 ;
+}
+
+.rates p{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.rate p{
+  line-height: 1.3;
+}
+
+.blue{
+  color: blue;
+}

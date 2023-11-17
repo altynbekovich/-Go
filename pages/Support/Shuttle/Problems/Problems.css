@@ -1,0 +1,142 @@
+
+
+
+.weight{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.red{
+    color: red;
+    font-size: 20px;
+}
+
+.fleXX{
+    gap: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.bottom{
+    margin: 204px 0;
+}
+select{
+    width: 95%;
+    padding: 10px;
+    margin-left: 12px;
+    border: 0.3px solid grey;
+    border-radius: 5px;
+}
+textarea{
+    width: 95%;
+    padding: 10px;
+    margin-left: 12px;
+    border: 0.3px solid grey;
+    border-radius: 5px;
+}
+
+.border_box{
+    padding: 10px;
+    border: 0.3px solid grey;
+    margin-left: 153px;
+    gap: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+#weight .flex{
+    width: 97%;
+}
+
+.input{
+    width: 20px;
+}
+
+.btn{
+    max-width: 100px;
+    width: 100%;
+    padding: 12px 8px;
+    border: 0.3px solid grey;
+    border-radius: 10px; 
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #fff;
+}
+
+.gap{
+    display: flex;
+    align-items: center;
+    grid-gap: 50px;
+}
+
+.btn_blue{
+    max-width: 90px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 7px;
+    background-color: blue;
+    color: #fff;
+}
+
+#btn_blue{
+    margin: 20px 0 10px;
+}
+
+#weight{
+    padding: 12px;
+}
+
+#profile p{
+    margin: 0 auto;
+}
+
+.blue{
+    color: blue;
+    line-height: 1.4;
+}
+
+.weightt{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 6px;
+}
+
+.flEx{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.borderCenter{
+    padding-top: 12px;
+}
+
+
+.accordion {
+    width: 100%;
+    text-align: left;
+    transition: 0.4s;
+    padding: 18px;
+    background-color: #efefef;
+    border-radius: 5px;
+}
+
+.bottom{
+    margin: 42px 0;
+    line-height: 1.7;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
+
+.ol{
+    padding: 12px;
+}
+
+h4{
+    font-size: 16px;
+    font-weight: 600;
+}

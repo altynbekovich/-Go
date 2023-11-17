@@ -18,9 +18,13 @@
     padding: 10px 10px;
 }
 
+.column p{
+    padding-bottom: 10px;
+}
+
 .borderR{
-    width: 50px;
-    padding: 12px;
+    width: 47px;
+    padding: 10px;
     border-radius: 50%;
     background: grey;
 }
@@ -32,4 +36,10 @@
     border-radius: 50%;
     padding: 1px;
     background: white;
+}
+
+.fff{
+    width: 100%;
+    background-color: #fff;
+    height: 100vh;
 }
